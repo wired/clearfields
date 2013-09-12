@@ -6,6 +6,8 @@
  * <wired@gentoo.org>
  */
 
+var currentBuild = 11;
+
 function ClearFields_Address()
 {
 	var urlbar = document.getElementById('urlbar');
@@ -38,18 +40,31 @@ function ClearFields_Search()
 
 function ClearFields_Find()
 {
+	var urlbar = false;
 	if ( document.getElementById('find-field') )
-		var urlbar = document.getElementById('find-field');
+		urlbar = document.getElementById('find-field');
 	else if ( document.getElementById('findbar-textbox') )
-		var urlbar = document.getElementById('findbar-textbox');
+		urlbar = document.getElementById('findbar-textbox');
 	else if ( document.getElementById('FindToolbar') )
-		var urlbar = document.getElementById('FindToolbar').getElement("findbar-textbox");
+		urlbar = document.getElementById('FindToolbar').getElement("findbar-textbox");
+	else {
+		// firefox 25+
+		// this is stupid, but it is the only thing I've managed to get working so far
+		// so it is better than nothing :)
+
+		// start with the notificationbox, dive in until we reach the text box
+		var c = gBrowser.getNotificationBox();
+		c = document.getAnonymousNodes(c)[1].firstChild.firstChild;
+		c = document.getAnonymousNodes(c)[0].firstChild.firstChild;
+		c = document.getAnonymousNodes(c)[0];
+		c = document.getAnonymousNodes(c)[0];
+
+		if ( c != undefined && urlbar != null )
+			urlbar = c;
+	}
+
 	if (urlbar) {
 		urlbar.value = "";
-		//if(document.getElementById('find-label')) 
-		//	gFindBar.find(urlbar.value);
-		//else
-		//	find(urlbar.value);
 		urlbar.focus();
 	}
 	return
@@ -266,8 +281,8 @@ function ClearFields_firstTime() {
 		cf_Branch.setIntPref("showsidebutton", 1);
 	}
 
-	if ( cf_init < 10 ) {
-		cf_Branch.setIntPref("init", 10);
+	if ( cf_init < currentBuild ) {
+		cf_Branch.setIntPref("init", currentBuild);
 		setTimeout("ClearFields_loadFirstTimeTab()",500);
 	}
 	// for testing

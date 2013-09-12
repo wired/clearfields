@@ -1,0 +1,77 @@
+#ClearFields-Address-bt {
+        list-style-image: url("chrome://clearfields/skin/address.png");
+}
+
+toolbar[iconsize="small"] #ClearFields-Address-bt {
+        list-style-image: url("chrome://clearfields/skin/address-small.png");
+}
+
+#ClearFields-Search-bt {
+        list-style-image: url("chrome://clearfields/skin/search.png");
+}
+
+toolbar[iconsize="small"] #ClearFields-Search-bt {
+        list-style-image: url("chrome://clearfields/skin/search-small.png");
+}
+
+#ClearFields-GoogleToolbar-bt {
+	list-style-image: url("chrome://clearfields/skin/google.png");
+}
+
+toolbar[iconsize="small"] #ClearFields-GoogleToolbar-bt {
+	list-style-image: url("chrome://clearfields/skin/google-small.png");
+}
+
+
+#ClearFields-Find-bt {
+        list-style-image: url("chrome://clearfields/skin/find.png");
+}
+
+#ClearFields-Bookmark-Search-bt {
+        list-style-image: url("chrome://clearfields/skin/find.png");
+}
+
+#ClearFields-History-Search-bt {
+        list-style-image: url("chrome://clearfields/skin/find.png");
+}
+
+#ClearFields-YahooToolbar-bt {
+        list-style-image: url("chrome://clearfields/skin/find.png");
+}
+
+#ClearFields-All-bt {
+        list-style-image: url("chrome://clearfields/skin/all.png");
+}
+
+toolbar[iconsize="small"] #ClearFields-All-bt {
+        list-style-image: url("chrome://clearfields/skin/all-small.png");
+}
+
+#ClearFields-All-Text-bt {
+        list-style-image: url("chrome://clearfields/skin/text.png");
+}
+#ClearFields-All-Pass-bt {
+        list-style-image: url("chrome://clearfields/skin/pass.png");
+}
+#ClearFields-All-Check-bt {
+        list-style-image: url("chrome://clearfields/skin/check.png");
+}
+
+
+.ClearFields-x-button {
+	list-style-image: url("chrome://clearfields/skin/x-normal.png");
+	padding: 1px;
+	cursor: pointer;
+}
+.ClearFields-x-button:hover {
+	list-style-image: url("chrome://clearfields/skin/x-hover.png");
+}
+#urlbar-icons {
+	-moz-binding: url('chrome://clearfields/content/clearfields.xbl#ClearFields-x-address');
+}
+.search-go-container {
+	-moz-binding: url('chrome://clearfields/content/clearfields.xbl#ClearFields-x-search');
+}
+.findbar-textbox .textbox-input-box {
+	-moz-binding: url('chrome://clearfields/content/clearfields.xbl#ClearFields-x-find');
+}

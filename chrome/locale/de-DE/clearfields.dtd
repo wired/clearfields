@@ -1,0 +1,31 @@
+<!ENTITY clearaddress.label "Adresszeile leeren">
+<!ENTITY clearaddress.tooltip "Inhalte der Adresszeile leeren">
+<!ENTITY clearall.label "Eingabefelder und Markierungen der aktueller Seite leeren/entfernen">
+<!ENTITY clearall.tooltip "Alle Eingabefelder und Markierungen auf aktueller Seite leeren/entfernen">
+<!ENTITY clearallcheck.label "Markierungen der aktueller Seite entfernen">
+<!ENTITY clearallcheck.tooltip "Alle Markierungen der aktueller Seite entfernen">
+<!ENTITY clearallpass.label "Passwortfelder der aktueller Seite leeren">
+<!ENTITY clearallpass.tooltip "Alle Passwortfelder der aktueller Seite leeren">
+<!ENTITY clearalltext.label "Texfelder der aktuellen Seite leeren">
+<!ENTITY clearalltext.tooltip "Alle Textfelder der aktuellen Seite leeren">
+<!ENTITY clearbookmark.label "Clr BM Search">
+<!ENTITY clearbookmark.tooltip "Clear the Bookmark Panel's Search">
+<!ENTITY clearfind.tooltip "Seiten-Suchfeld (F3) leeren">
+<!ENTITY cleargoogletoolbar.label "Google Toolbar Eingabefelder leeren">
+<!ENTITY cleargoogletoolbar.tooltip "Inhalte der Google Toolbar Felder leeren">
+<!ENTITY clearhistory.label "Clr History Search">
+<!ENTITY clearhistory.tooltip "Clear the History Panel's Search">
+<!ENTITY clearmenu.add.key "A">
+<!ENTITY clearmenu.add.label "Add Buttons">
+<!ENTITY clearmenu.main.key "C">
+<!ENTITY clearmenu.main.label "Clear Fields">
+<!ENTITY clearmenu.remove.key "R">
+<!ENTITY clearmenu.remove.label "Remove Buttons">
+<!ENTITY clearmenu.reposition.key "B">
+<!ENTITY clearmenu.reposition.label "Fix Button Locations">
+<!ENTITY clearmenu.togglein.key "I">
+<!ENTITY clearmenu.togglein.label "Toggle buttons with-in text fields">
+<!ENTITY clearmenu.toggleside.key "T">
+<!ENTITY clearmenu.toggleside.label "Toggle buttons in bookmark/history panes">
+<!ENTITY clearsearch.label "Suchfeld leeren">
+<!ENTITY clearsearch.tooltip "Inhalt des Suchfeldes leeren">

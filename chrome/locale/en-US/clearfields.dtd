@@ -1,0 +1,31 @@
+<!ENTITY clearaddress.label "Clr Address">
+<!ENTITY clearaddress.tooltip "Clear the Address field">
+<!ENTITY clearall.label "Clear Fields">
+<!ENTITY clearall.tooltip "Clear All Page Fields and Checkboxes">
+<!ENTITY clearallcheck.label "Clear Checkboxes">
+<!ENTITY clearallcheck.tooltip "Clear All Page Checkboxes">
+<!ENTITY clearallpass.label "Clear Pass Fields">
+<!ENTITY clearallpass.tooltip "Clear All Page Password Fields">
+<!ENTITY clearalltext.label "Clear Text Fields">
+<!ENTITY clearalltext.tooltip "Clear All Page Text Fields">
+<!ENTITY clearbookmark.label "Clr BM Search">
+<!ENTITY clearbookmark.tooltip "Clear the Bookmark Panel's Search">
+<!ENTITY clearfind.tooltip "Clear the Find Field">
+<!ENTITY cleargoogletoolbar.label "Clr Google">
+<!ENTITY cleargoogletoolbar.tooltip "Clear the Google Toolbar's Search Field">
+<!ENTITY clearhistory.label "Clr History Search">
+<!ENTITY clearhistory.tooltip "Clear the History Panel's Search">
+<!ENTITY clearmenu.add.key "A">
+<!ENTITY clearmenu.add.label "Add Main Toolbar Buttons">
+<!ENTITY clearmenu.main.key "C">
+<!ENTITY clearmenu.main.label "Clear Fields">
+<!ENTITY clearmenu.remove.key "R">
+<!ENTITY clearmenu.remove.label "Remove Main Toolbar Buttons">
+<!ENTITY clearmenu.reposition.key "B">
+<!ENTITY clearmenu.reposition.label "Fix Main Toolbar Button Locations">
+<!ENTITY clearmenu.togglein.key "I">
+<!ENTITY clearmenu.togglein.label "Toggle buttons with-in text fields">
+<!ENTITY clearmenu.toggleside.key "T">
+<!ENTITY clearmenu.toggleside.label "Toggle buttons in bookmark/history panes">
+<!ENTITY clearsearch.label "Clr Search">
+<!ENTITY clearsearch.tooltip "Clear the Search field">

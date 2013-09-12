@@ -1,0 +1,11 @@
+#!/bin/bash
+# xpi build script
+# $1 expects a version number
+mkdir -p _build
+cp -R chrome _build/chrome
+cp install.rdf _build/
+cp chrome.manifest _build/chrome.manifest
+cd _build
+zip -r ../clearfields-$1.xpi *
+cd ..
+rm -rf _build

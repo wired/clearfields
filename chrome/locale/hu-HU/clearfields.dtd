@@ -1,0 +1,31 @@
+<!ENTITY clearaddress.label "Cím kiürítése">
+<!ENTITY clearaddress.tooltip "Kiüríti a cím mezőt">
+<!ENTITY clearall.label "Minden mező ürítése az oldalon">
+<!ENTITY clearall.tooltip "Minden mező és minden jelölőnégyzet törlése">
+<!ENTITY clearallcheck.label "Jelölőnégyzetek törlése az oldalon">
+<!ENTITY clearallcheck.tooltip "Törli az összes bejelölt jelölőnégyzetet">
+<!ENTITY clearallpass.label "Jelszó mezők törlése az oldalon">
+<!ENTITY clearallpass.tooltip "Törli az összes jelszó mezőt az oldalon">
+<!ENTITY clearalltext.label "Szöveg mezők törlése az oldalon">
+<!ENTITY clearalltext.tooltip "Törli az összes szöveg mezőt az oldalon">
+<!ENTITY clearbookmark.label "Clr BM Search">
+<!ENTITY clearbookmark.tooltip "Clear the Bookmark Panel's Search">
+<!ENTITY clearfind.tooltip "A keresés mező kiürítése">
+<!ENTITY cleargoogletoolbar.label "Google Toolbar kiürítése">
+<!ENTITY cleargoogletoolbar.tooltip "A Google Toolbar kereső mezőjének kiürítése">
+<!ENTITY clearhistory.label "Clr History Search">
+<!ENTITY clearhistory.tooltip "Clear the History Panel's Search">
+<!ENTITY clearmenu.add.key "A">
+<!ENTITY clearmenu.add.label "Add Buttons">
+<!ENTITY clearmenu.main.key "C">
+<!ENTITY clearmenu.main.label "Clear Fields">
+<!ENTITY clearmenu.remove.key "R">
+<!ENTITY clearmenu.remove.label "Remove Buttons">
+<!ENTITY clearmenu.reposition.key "B">
+<!ENTITY clearmenu.reposition.label "Fix Button Locations">
+<!ENTITY clearmenu.togglein.key "I">
+<!ENTITY clearmenu.togglein.label "Toggle buttons with-in text fields">
+<!ENTITY clearmenu.toggleside.key "T">
+<!ENTITY clearmenu.toggleside.label "Toggle buttons in bookmark/history panes">
+<!ENTITY clearsearch.label "Kereső kiürítése">
+<!ENTITY clearsearch.tooltip "Kiüríti a kereső mezőt">

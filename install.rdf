@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	
+	<Description about="urn:mozilla:install-manifest">
+		
+		<!-- Required Items -->
+		<em:id>clearfields@alex.alexander.googlepages.com</em:id>
+		<em:name>Clear Fields</em:name>
+		<em:version>4.0.3</em:version>
+		<em:type>2</em:type>
+		
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>4.0</em:minVersion>
+				<em:maxVersion>24.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Optional Items -->
+		<em:creator>Alex Alexander</em:creator>
+		<em:description>Toolbar buttons that clear various fields :)</em:description>
+		<em:homepageURL>http://www.linuxized.com/category/firefox/clear-fields-extension/</em:homepageURL>
+		<em:iconURL>chrome://clearfields/skin/logo.png</em:iconURL>
+	</Description>
+</RDF>

@@ -1,0 +1,38 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<!DOCTYPE bindings SYSTEM "chrome://clearfields/locale/clearfields.dtd">
+<bindings xmlns="http://www.mozilla.org/xbl"
+	xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<binding id="ClearFields-x-address" extends="xul:hbox">
+		<content>
+			<xul:image
+				id="ClearFields-in-address"
+				class="ClearFields-x-button"
+				tooltiptext="&clearaddress.tooltip;"
+				onclick="ClearFields_Address();"
+				/>
+			<children/>
+		</content>
+	</binding>
+	<binding id="ClearFields-x-search" extends="xul:hbox">
+		<content>
+			<xul:image
+				id="ClearFields-in-search"
+				class="ClearFields-x-button"
+				tooltiptext="&clearsearch.tooltip;"
+				onclick="ClearFields_Search();"
+				/>
+			<children/>
+		</content>
+	</binding>
+	<binding id="ClearFields-x-find" extends="xul:hbox">
+		<content>
+			<children/>
+			<xul:image
+				id="ClearFields-in-find" 
+				class="ClearFields-x-button"
+				tooltiptext="&clearfind.tooltip;"
+				onclick="ClearFields_Find();"
+				/>
+		</content>
+	</binding>
+</bindings>

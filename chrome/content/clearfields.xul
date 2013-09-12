@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://clearfields/skin/clearfields.css"
+                 type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://clearfields/locale/clearfields.dtd">
+<overlay id="ClearFields-Overlay"
+	 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://clearfields/content/clearfields.js" />
+
+	<menupopup id="menu_ToolsPopup">
+		<menu id="ClearFields-menu" accesskey="&clearmenu.main.key;" insertafter="devToolsSeparator" label="&clearmenu.main.label;">
+			<menupopup id="ClearFields-popup-menu">
+				<menuitem id="ClearFields-menu-Add" accesskey="&clearmenu.add.key;" label="&clearmenu.add.label;" oncommand="ClearFields_addToToolbars();"/>
+				<menuitem id="ClearFields-menu-Remove" accesskey="&clearmenu.remove.key;" label="&clearmenu.remove.label;" oncommand="ClearFields_removeFromToolbars();"/>
+				<menuseparator/>
+				<menuitem id="ClearFields-menu-Reposition" accesskey="&clearmenu.reposition.key;" label="&clearmenu.reposition.label;" oncommand="ClearFields_FixToolbars();"/>
+				<menuseparator/>
+				<menuitem id="ClearFields-menu-ToggleIn" accesskey="&clearmenu.togglein.key;" label="&clearmenu.togglein.label;" oncommand="ClearFields_ToggleInField();"/>
+				<menuitem id="ClearFields-menu-ToggleSide" accesskey="&clearmenu.toggleside.key;" label="&clearmenu.toggleside.label;" oncommand="ClearFields_Toggle('showsidebutton',1);"/>
+			</menupopup>
+        	</menu>
+	</menupopup>
+	
+	<toolbarpalette id="BrowserToolbarPalette">
+	<toolbarbutton id="ClearFields-Address-bt" class="toolbarbutton-1" label="&clearaddress.label;" tooltiptext="&clearaddress.tooltip;" oncommand="ClearFields_Address();" />
+        <toolbarbutton id="ClearFields-Search-bt" class="toolbarbutton-1" label="&clearsearch.label;" tooltiptext="&clearsearch.tooltip;" oncommand="ClearFields_Search();" />
+
+	<toolbarbutton id="ClearFields-All-bt" type="menu-button" class="toolbarbutton-1" label="&clearall.label;" tooltiptext="&clearall.tooltip;" oncommand="ClearFields_All(0);">
+		<menupopup>
+			<menuitem id="ClearFields-All-Text-bt" label="&clearalltext.label;"
+				class="menuitem-iconic" tooltiptext="&clearalltext.tooltip;"
+				oncommand="ClearFields_All(1); event.preventBubble();"
+				/>
+
+			<menuitem id="ClearFields-All-Pass-bt" label="&clearallpass.label;"
+				class="menuitem-iconic" tooltiptext="&clearallpass.tooltip;"
+				oncommand="ClearFields_All(2); event.preventBubble();"
+				/>
+
+			<menuitem id="ClearFields-All-Check-bt" label="&clearallcheck.label;"
+				class="menuitem-iconic" tooltiptext="&clearallcheck.tooltip;"
+				oncommand="ClearFields_All(3); event.preventBubble();"
+				/>
+		</menupopup>
+	</toolbarbutton>
+
+	<toolbarbutton position="2" id="ClearFields-GoogleToolbar-bt" class="gtb-toolbarbutton" label="&cleargoogletoolbar.label;" tooltiptext="&cleargoogletoolbar.tooltip;" oncommand="ClearFields_GoogleToolbar();" />
+	
+	</toolbarpalette>
+	
+	<!--
+		FFX 2 WAY - NO GO 4 FFX 3
+		!-->
+	<!--
+	<toolbar id='FindToolbar'>
+		<hbox anonid='findbar-container'>
+			<toolbarbutton id="ClearFields-Find-bt" class="toolbarbutton-1" tooltiptext="&clearfind.tooltip;" oncommand="ClearFields_Find();" position="3" />
+		</hbox>
+	</toolbar>
+	!-->
+<!--	
+	<toolbarbutton id="ClearFields-Bookmark-Search-bt" class="toolbarbutton-1" label="&clearbookmark.label;" tooltiptext="&clearbookmark.tooltip;" oncommand="ClearFields_Bookmark_Search();" />
+	
+	<toolbarbutton id="ClearFields-History-Search-bt" class="toolbarbutton-1" label="&clearhistory.label;" tooltiptext="&clearhistory.tooltip;" oncommand="ClearFields_History_Search();" />
+	
+	<toolbarbutton id="ClearFields-YahooToolbar-bt" class="toolbarbutton-1" label="&clearhistory.label;" tooltiptext="&clearhistory.tooltip;" oncommand="ClearFields_History_Search();" />
+!-->
+	
+</overlay>

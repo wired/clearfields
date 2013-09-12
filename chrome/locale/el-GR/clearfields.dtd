@@ -1,0 +1,31 @@
+<!ENTITY clearaddress.label "Καθαρισμός Διεύθυνσης">
+<!ENTITY clearaddress.tooltip "Καθαρισμός πεδίου Διεύθυνσης">
+<!ENTITY clearall.label "Καθαρισμός πεδίων">
+<!ENTITY clearall.tooltip "Καθαρισμός όλων των πεδίων και επιλογών">
+<!ENTITY clearallcheck.label "Καθαρισμός επιλογών">
+<!ENTITY clearallcheck.tooltip "Καθαρισμός όλων των πεδίων επιλογών">
+<!ENTITY clearallpass.label "Καθαρισμός κωδικών">
+<!ENTITY clearallpass.tooltip "Καθαρισμός όλων των πεδίων κωδικών">
+<!ENTITY clearalltext.label "Καθαρισμός κειμένου">
+<!ENTITY clearalltext.tooltip "Καθαρισμός όλων των πεδίων κειμένου">
+<!ENTITY clearbookmark.label "Καθαρισμός Αν. Αγαπημένων">
+<!ENTITY clearbookmark.tooltip "Καθαρισμός του πεδίου αναζήτησης αγαπημένων">
+<!ENTITY clearfind.tooltip "Καθαρισμός πεδίου αναζήτησης λέξεων">
+<!ENTITY cleargoogletoolbar.label "Καθαρισμός Μπάρας Google">
+<!ENTITY cleargoogletoolbar.tooltip "Καθαρισμός της μπάρας του Google">
+<!ENTITY clearhistory.label "Καθαρισμός Αν. Ιστορικού">
+<!ENTITY clearhistory.tooltip "Καθαρισμός πεδίου αναζήτησης ιστορικού">
+<!ENTITY clearmenu.add.key "Π">
+<!ENTITY clearmenu.add.label "Προσθήκη Κουμπιών">
+<!ENTITY clearmenu.main.key "Κ">
+<!ENTITY clearmenu.main.label "Κουμπιά καθαρισμού">
+<!ENTITY clearmenu.remove.key "Α">
+<!ENTITY clearmenu.remove.label "Αφαίρεση Κουμπιών">
+<!ENTITY clearmenu.reposition.key "Ε">
+<!ENTITY clearmenu.reposition.label "Επανατοποθέτηση κουμπιών">
+<!ENTITY clearmenu.togglein.key "Δ">
+<!ENTITY clearmenu.togglein.label "Προσθήκη/αφαίρεση κουμπιών στα δεξιά των πεδίων">
+<!ENTITY clearmenu.toggleside.key "Ι">
+<!ENTITY clearmenu.toggleside.label "Προσθήκη/αφαίρεση κουμπιών στα αγαπημένα και στο ιστορικό">
+<!ENTITY clearsearch.label "Καθαρισμός Αναζήτησης">
+<!ENTITY clearsearch.tooltip "Καθαρισμός πεδίου αναζήτησης">

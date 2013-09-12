@@ -1,0 +1,13 @@
+content clearfields chrome/content/
+locale clearfields en-US chrome/locale/en-US/
+locale clearfields el-GR chrome/locale/el-GR/
+locale clearfields ko-KR chrome/locale/ko-KR/
+locale clearfields hu-HU chrome/locale/hu-HU/
+locale clearfields de-DE chrome/locale/de-DE/
+overlay chrome://browser/content/browser.xul chrome://clearfields/content/clearfields.xul
+overlay	chrome://browser/content/bookmarks/bookmarksPanel.xul     chrome://clearfields/content/clearfields.xul
+overlay	chrome://browser/content/history/history-panel.xul     chrome://clearfields/content/clearfields.xul
+skin clearfields classic/1.0 chrome/skin/
+skin clearfields CylenceThemeDia chrome/skin/dark/
+skin clearfields MidnightFox chrome/skin/dark/
+style chrome://global/content/customizeToolbar.xul chrome://clearfields/skin/toolbarbutton.css

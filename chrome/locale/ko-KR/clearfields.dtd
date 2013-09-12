@@ -1,0 +1,31 @@
+<!ENTITY clearaddress.label "주소 삭제">
+<!ENTITY clearaddress.tooltip "주소창 내용 삭제">
+<!ENTITY clearall.label "페이지의 모든 입련란 삭제">
+<!ENTITY clearall.tooltip " 페이지의 모든 입련란 내용 삭제와 모든 체크상자 해제">
+<!ENTITY clearallcheck.label "체크상자 해제">
+<!ENTITY clearallcheck.tooltip "페이지의 모든 체크상자 해제">
+<!ENTITY clearallpass.label "암호 입력 삭제">
+<!ENTITY clearallpass.tooltip "페이지의 모든 암호 입력란의 내용 삭제">
+<!ENTITY clearalltext.label "페이지의 입력란 삭제">
+<!ENTITY clearalltext.tooltip "페이지의 모든 문자 입력 란 삭제">
+<!ENTITY clearbookmark.label "Clr BM Search">
+<!ENTITY clearbookmark.tooltip "Clear the Bookmark Panel's Search">
+<!ENTITY clearfind.tooltip "페이지 내부 검색 내용 삭제">
+<!ENTITY cleargoogletoolbar.label "구글 툴바 검색 삭제">
+<!ENTITY cleargoogletoolbar.tooltip "구글 툴바의 검색 내용 삭제">
+<!ENTITY clearhistory.label "Clr History Search">
+<!ENTITY clearhistory.tooltip "Clear the History Panel's Search">
+<!ENTITY clearmenu.add.key "A">
+<!ENTITY clearmenu.add.label "Add Buttons">
+<!ENTITY clearmenu.main.key "C">
+<!ENTITY clearmenu.main.label "Clear Fields">
+<!ENTITY clearmenu.remove.key "R">
+<!ENTITY clearmenu.remove.label "Remove Buttons">
+<!ENTITY clearmenu.reposition.key "B">
+<!ENTITY clearmenu.reposition.label "Fix Button Locations">
+<!ENTITY clearmenu.togglein.key "I">
+<!ENTITY clearmenu.togglein.label "Toggle buttons with-in text fields">
+<!ENTITY clearmenu.toggleside.key "T">
+<!ENTITY clearmenu.toggleside.label "Toggle buttons in bookmark/history panes">
+<!ENTITY clearsearch.label "웹 검색 삭제">
+<!ENTITY clearsearch.tooltip "웹 검색란 내용 삭제">
